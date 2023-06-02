@@ -19,7 +19,7 @@ class MainViewModel : ViewModel() {
     fun decrement() {
         count--
         mCounter.value = count
-        plus = "\n +$plus"
+        plus = "\n -$plus"
         operation.value = plus
     }
 }
